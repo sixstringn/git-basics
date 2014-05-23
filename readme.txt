@@ -4,9 +4,11 @@ git status - lets you know directory, branch, and file status in git structure. 
 
 git add ‘file name’ - stages file 
 
+git add . - stages all modified files in current branch
+
 git commit ‘file name’ - commits file to repo
 
-git commit -m “message of changes made” ‘file name’
+git commit -m ‘message of changes made’ (bypasses VIM text editor)
 
 git checkout ‘branch name’ - creates branch off current working branch
 
