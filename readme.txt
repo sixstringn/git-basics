@@ -21,3 +21,7 @@ git branch -d ‘branch name’ - deletes merged branch
 git branch -D ‘branch name’ - deletes branch whether merged or not
  
 git checkout master - switched to master branch
+
+
+
+‘esc’ -> :wq - escapes VIM editor
