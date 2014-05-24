@@ -8,12 +8,16 @@ git add . - stages all modified files in current branch
 
 git commit ‘file name’ - commits file to repo
 
-git commit -m ‘message of changes made’ (bypasses VIM text editor)
+git commit -m ‘message of changes made’ - commit (bypasses VIM text editor)
 
 git checkout ‘branch name’ - creates branch off current working branch
 
-git checkout -m ‘branch name’ - creates branch off current working branch or branch  and changes PWD to that branch 
+git checkout -m ‘branch name’ - creates branch off current working branch or branch and changes PWD to that branch 
 
-git branch - shows branch list and currently selected working branch (in green) 
+git branch - shows branch list and currently selected working branch (in green)
+ 
+git branch -d ‘branch name’ - deletes merged branch
 
+git branch -D ‘branch name’ - deletes branch whether merged or not
+ 
 git checkout master - switched to master branch
